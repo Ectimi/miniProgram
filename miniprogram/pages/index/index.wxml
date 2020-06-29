@@ -1,0 +1,9 @@
+<!--miniprogram/pages/cate/cate.wxml-->
+<view class="wrapper">
+	<view class="des" bindtouchstart="touchStart" bindtouchend="touchEnd" bindtap="multipleTap">{{s}}</view>
+	<view class="tip">双击卡片可复制到剪贴板</view>
+	<view class="btn-box">
+		<view class="button" bindtap="randomSentence" data-type="1">彩虹屁</view>
+		<view class="button" bindtap="randomSentence" data-type="2">文艺</view>
+	</view>
+</view>
